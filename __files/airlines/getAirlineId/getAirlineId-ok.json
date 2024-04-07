@@ -1,0 +1,11 @@
+{
+  "airline": {
+    "id": 5,
+    "name": "Iberia",
+    "telephone": 636756345,
+    "foundationYear": "1999-10-25",
+    "fleet": 100,
+    "onTime": 92.3,
+    "active": true
+  }
+}

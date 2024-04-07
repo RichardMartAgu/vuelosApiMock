@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/airlineBad"
+  },
+  "response": {
+    "status": 400,
+    "headers":{
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "../__files/badRequest.json"
+  }
+}

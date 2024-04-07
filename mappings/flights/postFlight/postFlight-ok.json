@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/flight"
+  },
+  "response": {
+    "status": 201,
+    "headers":{
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "../__files/flights/postFlight/postFlight-ok.json"
+  }
+}

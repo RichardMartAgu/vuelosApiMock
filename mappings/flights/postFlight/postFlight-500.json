@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/flightKo"
+  },
+  "response": {
+    "status": 500,
+    "headers":{
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "../__files/internalServerError.json"
+  }
+}

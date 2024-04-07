@@ -1,0 +1,19 @@
+{
+  "airplanes": {
+    "id": 2,
+    "model": "Airbus A320",
+    "manufacturingDate": "2010-08-15",
+    "passengerCapacity": 150,
+    "maxSpeed": 840,
+    "active": true,
+    "airline": {
+      "id": 5,
+      "name": "British Airways",
+      "telephone": 442085501515,
+      "foundationYear": "1974-04-01",
+      "fleet": 150,
+      "onTime": 89.7,
+      "active": true
+    }
+  }
+}

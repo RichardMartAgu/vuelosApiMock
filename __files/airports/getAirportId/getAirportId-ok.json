@@ -1,0 +1,11 @@
+{
+  "airport": {
+    "id": 5,
+    "name": "Aeropuerto de Zaragoza.",
+    "city": "Zaragoza",
+    "foundationYear": "1965-10-05",
+    "latitude": 41.6669,
+    "longitude": -1.0413,
+    "active": true
+  }
+}

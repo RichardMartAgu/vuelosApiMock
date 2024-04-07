@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/airline"
+  },
+  "response": {
+    "status": 201,
+    "headers":{
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "../__files/airlines/postAirline/postAirline-ok.json"
+  }
+}

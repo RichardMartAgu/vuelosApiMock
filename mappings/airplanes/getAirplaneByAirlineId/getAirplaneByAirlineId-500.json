@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/airline/Ko/airplanes"
+  },
+  "response": {
+    "status": 500,
+    "headers":{
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "../__files/internalServerError.json"
+  }
+}

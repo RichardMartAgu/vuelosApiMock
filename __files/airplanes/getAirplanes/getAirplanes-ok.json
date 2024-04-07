@@ -1,0 +1,59 @@
+[
+  {
+    "airplanes": {
+      "id": 1,
+      "model": "Boeing 737",
+      "manufacturingDate": "2005-03-10",
+      "passengerCapacity": 180,
+      "maxSpeed": 560,
+      "active": true,
+      "airline": {
+        "id": 1,
+        "name": "Iberia",
+        "telephone": 636756345,
+        "foundationYear": "1999-10-25",
+        "fleet": 100,
+        "onTime": 92.3,
+        "active": true
+      }
+    }
+  },
+  {
+    "airplanes": {
+      "id": 2,
+      "model": "Airbus A320",
+      "manufacturingDate": "2010-08-15",
+      "passengerCapacity": 150,
+      "maxSpeed": 840,
+      "active": true,
+      "airline": {
+        "id": 2,
+        "name": "British Airways",
+        "telephone": 442085501515,
+        "foundationYear": "1974-04-01",
+        "fleet": 150,
+        "onTime": 89.7,
+        "active": true
+      }
+    }
+  },
+  {
+    "airplanes": {
+      "id": 3,
+      "model": "Boeing 777",
+      "manufacturingDate": "2015-11-20",
+      "passengerCapacity": 350,
+      "maxSpeed": 890,
+      "active": true,
+      "airline": {
+        "id": 3,
+        "name": "Emirates",
+        "telephone": 97147070707,
+        "foundationYear": "1985-03-25",
+        "fleet": 270,
+        "onTime": 95.5,
+        "active": true
+      }
+    }
+  }
+]

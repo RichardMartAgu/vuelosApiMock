@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f189379a-6287-4ec8-afbf-252dddf20314" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__files/airlines/getAirlineId/getAirlineId-ok.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__files/airlines/getAirlines/getAirlines-ok.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__files/airlines/postAirline/postAirline-ok.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__files/airplanes/getAirplaneByAirlineId/getAirplaneByAirlineId-ok.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__files/airplanes/getAirplaneId/getAirplane-ok.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__files/airplanes/getAirplanes/getAirplanes-ok.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__files/airplanes/postAirplane/postAirplane-ok.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__files/airports/getAirportId/getAirportId-ok.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__files/airports/getAirports/getAirports-ok.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__files/airports/postAirport/postAirports-ok.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__files/badRequest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__files/defaultResponse.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__files/deleteFlight-ok.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__files/emptyResponse.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__files/flights/getFlightId/getFlightId-ok.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__files/flights/getFlights/getFlights-ok.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__files/flights/getFlightsByAirportId/getFlightsByAirportId-ok.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__files/flights/postFlight/postFlight-ok.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__files/internalServerError.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__files/productNotFound.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/airlnes/deleteAirline/deleteAirline-400.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/airlnes/deleteAirline/deleteAirline-404.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/airlnes/deleteAirline/deleteAirline-ok.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/airlnes/getAirlineId/getAirlineId-404.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/airlnes/getAirlineId/getAirlineId-500.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/airlnes/getAirlineId/getAirlineId-ok.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/airlnes/getAirlines/getAirlines-500.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/airlnes/getAirlines/getAirlines-ok.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/airlnes/patchAirline/patchAirline-400.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/airlnes/patchAirline/patchAirline-404.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/airlnes/patchAirline/patchAirline-ok.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/airlnes/postAirline/postAirline-400.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/airlnes/postAirline/postAirline-500.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/airlnes/postAirline/postAirline-ok.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/airlnes/putAirline/putAirline-400.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/airlnes/putAirline/putAirline-404.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/airlnes/putAirline/putAirline-ok.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/airplanes/deleteAirplane/deleteAirplane-400.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/airplanes/deleteAirplane/deleteAirplane-404.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/airplanes/deleteAirplane/deleteAirplane-ok.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/airplanes/getAirplaneByAirlineId/getAirplaneByAirlineId-404.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/airplanes/getAirplaneByAirlineId/getAirplaneByAirlineId-500.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/airplanes/getAirplaneByAirlineId/getAirplaneByAirlineId-ok.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/airplanes/getAirplaneId/getAirplane-404.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/airplanes/getAirplaneId/getAirplane-500.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/airplanes/getAirplaneId/getAirplane-ok.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/airplanes/getAirplanes/getAirplanes-500.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/airplanes/getAirplanes/getAirplanes-ok.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/airplanes/patchAirplane/patchAirplane-400.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/airplanes/patchAirplane/patchAirplane-404.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/airplanes/patchAirplane/patchAirplane-ok.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/airplanes/postAirplane/postAirplane-400.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/airplanes/postAirplane/postAirplane-500.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/airplanes/postAirplane/postAirplane-ok.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/airplanes/putAirplane/putAirplane-400.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/airplanes/putAirplane/putAirplane-404.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/airplanes/putAirplane/putAirplane-ok.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/airports/deleteAirport/deleteAirport-400.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/airports/deleteAirport/deleteAirport-404.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/airports/deleteAirport/deleteAirport-ok.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/airports/getAirportId/getAirportId-404.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/airports/getAirportId/getAirportId-500.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/airports/getAirportId/getAirportId-ok.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/airports/getAirports/getAirports-500.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/airports/getAirports/getAirports-ok.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/airports/patchAiport/patchAirport-400.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/airports/patchAiport/patchAirport-404.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/airports/patchAiport/patchAirport-ok.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/airports/postAiport/postAirport-400.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/airports/postAiport/postAirport-500.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/airports/postAiport/postAirport-ok.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/airports/putAiport/putAirport-400.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/airports/putAiport/putAirport-404.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/airports/putAiport/putAirport-ok.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/defaultRequest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/flights/deleteFlight/deleteFlight-400.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/flights/deleteFlight/deleteFlight-404.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/flights/deleteFlight/deleteFlight-ok.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/flights/getFlightId/getFlightId-404.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/flights/getFlightId/getFlightId-500.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/flights/getFlightId/getFlightId-ok.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/flights/getFlights/getFlights-500.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/flights/getFlights/getFlights-ok.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/flights/getFlightsByAirportId/getFlightsByAirportId-404.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/flights/getFlightsByAirportId/getFlightsByAirportId-500.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/flights/getFlightsByAirportId/getFlightsByAirportId-ok.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/flights/patchFlight/patchFlight-400.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/flights/patchFlight/patchFlight-404.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/flights/patchFlight/patchFlight-ok.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/flights/postFlight/postFlight-400.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/flights/postFlight/postFlight-500.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/flights/postFlight/postFlight-ok.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/flights/putFlight/putFlight-400.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/flights/putFlight/putFlight-404.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mappings/flights/putFlight/putFlight-ok.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuelosApiMock.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wiremock-standalone-3.5.2.jar" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2ejoMAAgIoGfg7DVrZZIISHm8jN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/richa/IdeaProjects/2ºDAM/vuelosApiMock/__files/airlines"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\richa\IdeaProjects\2ºDAM\vuelosApiMock\__files\airlines" />
+      <recent name="C:\Users\richa\IdeaProjects\2ºDAM\vuelosApiMock\mappings\airlnes\putAirline" />
+      <recent name="C:\Users\richa\IdeaProjects\2ºDAM\vuelosApiMock\mappings\airlnes\postAirline" />
+      <recent name="C:\Users\richa\IdeaProjects\2ºDAM\vuelosApiMock\mappings\airlnes\patchAirline" />
+      <recent name="C:\Users\richa\IdeaProjects\2ºDAM\vuelosApiMock\mappings\airlnes\getAirlines" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\richa\IdeaProjects\2ºDAM\vuelosApiMock\__files" />
+      <recent name="C:\Users\richa\IdeaProjects\2ºDAM\vuelosApiMock\mappings\flights\postFlight" />
+      <recent name="C:\Users\richa\IdeaProjects\2ºDAM\vuelosApiMock\__files\Flights\FlightsByAirportId" />
+      <recent name="C:\Users\richa\IdeaProjects\2ºDAM\vuelosApiMock\__files\Flights\Flights" />
+      <recent name="C:\Users\richa\IdeaProjects\2ºDAM\vuelosApiMock\mappings\Flights\FlightId" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f189379a-6287-4ec8-afbf-252dddf20314" name="Changes" comment="" />
+      <created>1712427299170</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712427299170</updated>
+    </task>
+    <servers />
+  </component>
+</project>

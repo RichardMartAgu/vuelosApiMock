@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/airports"
+  },
+  "response": {
+    "status": 200,
+    "headers":{
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "../__files/airports/getAirports/getAirports-ok.json"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "model": "Boeing 737",
+  "manufacturingDate": "2010-01-18",
+  "passengerCapacity": 200,
+  "maxSpeed": 560,
+  "active": true,
+  "airline": {
+    "id": 11
+  }
+}

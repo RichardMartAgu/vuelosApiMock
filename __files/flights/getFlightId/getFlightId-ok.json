@@ -1,0 +1,19 @@
+{
+  "flight": {
+    "id": 5,
+    "name": "Zaragoza/Menorca",
+    "departureDate": "2020-01-01",
+    "gate": 5,
+    "duration": 5.5,
+    "departure": false,
+    "airport": {
+      "id": 23,
+      "name": "Aeropuerto de Zaragoza.",
+      "city": "Zaragoza",
+      "foundationYear": "1965-10-05",
+      "latitude": 41.6669,
+      "longitude": -1.0413,
+      "active": true
+    }
+  }
+}

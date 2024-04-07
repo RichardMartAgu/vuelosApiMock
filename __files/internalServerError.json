@@ -1,0 +1,5 @@
+{
+  "code": 500,
+  "message": "Error interno del servidor",
+  "error": "Internal Server Error"
+}

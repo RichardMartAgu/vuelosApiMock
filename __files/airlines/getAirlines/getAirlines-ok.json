@@ -1,0 +1,35 @@
+[
+  {
+    "airline": {
+      "id": 1,
+      "name": "Iberia",
+      "telephone": 636756345,
+      "foundationYear": "1999-10-25",
+      "fleet": 100,
+      "onTime": 92.3,
+      "active": true
+    }
+  },
+  {
+    "airline": {
+      "id": 2,
+      "name": "Air France",
+      "telephone": 987654321,
+      "foundationYear": "1980-07-15",
+      "fleet": 80,
+      "onTime": 88.5,
+      "active": true
+    }
+  },
+  {
+    "airline": {
+      "id": 4,
+      "name": "Lufthansa",
+      "telephone": 491805805805,
+      "foundationYear": "1953-01-06",
+      "fleet": 280,
+      "onTime": 91.2,
+      "active": true
+    }
+  }
+]

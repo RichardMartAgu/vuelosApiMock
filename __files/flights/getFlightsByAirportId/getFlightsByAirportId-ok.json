@@ -1,0 +1,19 @@
+{
+  "flight": {
+    "id": 56,
+    "name": "Barcelona/París",
+    "departureDate": "2024-06-20",
+    "gate": 3,
+    "duration": 2.75,
+    "departure": false,
+    "airport": {
+      "id": 5,
+      "name": "Charles de Gaulle Airport",
+      "city": "Paris",
+      "foundationYear": "1974-03-01",
+      "latitude": 49.0097,
+      "longitude": 2.5479,
+      "active": true
+    }
+  }
+}

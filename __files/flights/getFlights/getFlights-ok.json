@@ -1,0 +1,59 @@
+[
+  {
+    "flight": {
+      "id": 23,
+      "name": "Zaragoza/Menorca",
+      "departureDate": "2020-01-01",
+      "gate": 5,
+      "duration": 5.5,
+      "departure": false,
+      "airport": {
+        "id": 23,
+        "name": "Aeropuerto de Zaragoza.",
+        "city": "Zaragoza",
+        "foundationYear": "1965-10-05",
+        "latitude": 41.6669,
+        "longitude": -1.0413,
+        "active": true
+      }
+    }
+  },
+  {
+    "flight": {
+      "id": 34,
+      "name": "Madrid/Londres",
+      "departureDate": "2024-05-15",
+      "gate": 8,
+      "duration": 3.5,
+      "departure": false,
+      "airport": {
+        "id": 34,
+        "name": "Heathrow Airport",
+        "city": "London",
+        "foundationYear": "1946-05-31",
+        "latitude": 51.4700,
+        "longitude": -0.4543,
+        "active": true
+      }
+    }
+  },
+  {
+    "flight": {
+      "id": 56,
+      "name": "Barcelona/París",
+      "departureDate": "2024-06-20",
+      "gate": 3,
+      "duration": 2.75,
+      "departure": false,
+      "airport": {
+        "id": 56,
+        "name": "Charles de Gaulle Airport",
+        "city": "Paris",
+        "foundationYear": "1974-03-01",
+        "latitude": 49.0097,
+        "longitude": 2.5479,
+        "active": true
+      }
+    }
+  }
+]

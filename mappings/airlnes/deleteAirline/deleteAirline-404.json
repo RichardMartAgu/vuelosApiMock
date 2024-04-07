@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "DELETE",
+    "urlPattern": "/airline/.*"
+  },
+  "response": {
+    "status": 404,
+    "headers":{
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "../__files/productNotFound.json"
+  }
+}

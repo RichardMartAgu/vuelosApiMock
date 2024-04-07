@@ -1,0 +1,19 @@
+{
+  "airplanes": {
+    "id": 5,
+    "model": "Boeing 737",
+    "manufacturingDate": "2005-03-10",
+    "passengerCapacity": 180,
+    "maxSpeed": 560,
+    "active": true,
+    "airline": {
+      "id": 1,
+      "name": "Iberia",
+      "telephone": 636756345,
+      "foundationYear": "1999-10-25",
+      "fleet": 100,
+      "onTime": 92.3,
+      "active": true
+    }
+  }
+}

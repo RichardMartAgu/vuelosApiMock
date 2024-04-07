@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/airline/5/airplanes"
+  },
+  "response": {
+    "status": 200,
+    "headers":{
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "../__files/airplanes/getAirplaneByAirlineId/getAirplaneByAirlineId-ok.json"
+  }
+}

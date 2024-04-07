@@ -1,0 +1,14 @@
+{
+  "priority": 1,
+  "request": {
+    "method": "DELETE",
+    "url": "/airplane/Ko"
+  },
+  "response": {
+    "status": 500,
+    "headers":{
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "../__files/internalServerError.json"
+  }
+}

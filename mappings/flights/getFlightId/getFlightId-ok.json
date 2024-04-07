@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/flight/5"
+  },
+  "response": {
+    "status": 200,
+    "headers":{
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "../__files/flights/getFlightId/getFlightId-ok.json"
+  }
+}

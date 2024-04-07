@@ -1,0 +1,5 @@
+{
+  "code": 404,
+  "message": "El recurso solicitado no se puede encontrar.",
+  "errors": "Not Found"
+}

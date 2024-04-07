@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "PATCH",
+    "urlPattern": "/flight/.*"
+  },
+  "response": {
+    "status": 404,
+    "headers":{
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "../__files/productNotFound.json"
+  }
+}

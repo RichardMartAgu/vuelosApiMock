@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/flights"
+  },
+  "response": {
+    "status": 200,
+    "headers":{
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "../__files/flights/getFlights/getFlights-ok.json"
+  }
+}
