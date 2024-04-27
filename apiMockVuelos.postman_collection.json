@@ -1,0 +1,1072 @@
+{
+	"info": {
+		"_postman_id": "47ebe00f-a972-438f-b013-84e643b6d074",
+		"name": "apiMockVuelos",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31669740"
+	},
+	"item": [
+		{
+			"name": "FlightsMock",
+			"item": [
+				{
+					"name": "/flights",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/flights",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"flights"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/flightsKo",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/flightsKo",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"flightsKo"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/flight/:flightId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/flight/:flightId",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"flight",
+								":flightId"
+							],
+							"variable": [
+								{
+									"key": "flightId",
+									"value": "76"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/airport/:airportId/flights",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/airport/:airportId/flights",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"airport",
+								":airportId",
+								"flights"
+							],
+							"variable": [
+								{
+									"key": "airportId",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/flights",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Zaragoza-Mallorca\",\r\n    \"departureDate\": \"2020-01-01\",\r\n    \"gate\": 5,\r\n    \"duration\": 5.5,\r\n    \"departure\": true,\r\n    \"airport\":{\r\n        \"id\": 7\r\n    }\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/flights",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"flights"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/flight/:flightId",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/flight/:flightId",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"flight",
+								":flightId"
+							],
+							"variable": [
+								{
+									"key": "flightId",
+									"value": "230"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/flight/:flightId",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Zaragoza-Malllorca\",\r\n    \"departureDate\": \"2035-01-18\",\r\n    \"gate\": 6,\r\n    \"duration\": 2.5,\r\n    \"departure\": false,\r\n    \"airport\":{\r\n        \"id\": 6\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/flight/:flightId",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"flight",
+								":flightId"
+							],
+							"variable": [
+								{
+									"key": "flightId",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/flight/:flightId",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"field\": \"gate\",\r\n    \"gate\": \"10\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/flight/:flightId",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"flight",
+								":flightId"
+							],
+							"variable": [
+								{
+									"key": "flightId",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"description": "Gestión de vuelos"
+		},
+		{
+			"name": "AirportsMock",
+			"item": [
+				{
+					"name": "/airports",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/airports",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"airports"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/airport/:airportId",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/airport/:airportId",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"airport",
+								":airportId"
+							],
+							"variable": [
+								{
+									"key": "airportId",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/airport",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"name\": \"Aeropuerto de Barcelona\",\r\n\"city\": \"Barcelona\",\r\n\"foundationYear\": \"1965-10-20\",\r\n\"latitude\": 41.2974,\r\n\"longitude\": 2.0832,\r\n\"active\": true\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/airport",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"airport"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/airport/:airportId",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/airport/:airportId",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"airport",
+								":airportId"
+							],
+							"variable": [
+								{
+									"key": "airportId",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/airport/:airportId",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Aeropuerto de Barcelona\",\r\n    \"city\": \"Barcelona\",\r\n    \"foundationYear\": \"1965-10-06\",\r\n    \"latitude\": 41.6669 ,\r\n    \"longitude\": -1.0413, \r\n    \"active\": false\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/airport/:airportId",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"airport",
+								":airportId"
+							],
+							"variable": [
+								{
+									"key": "airportId",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/airport/:airportId",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"field\": \"name\",\r\n    \"name\": \"Canarias\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/airport/:airportId",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"airport",
+								":airportId"
+							],
+							"variable": [
+								{
+									"key": "airportId",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "AirplaneMock",
+			"item": [
+				{
+					"name": "/airplanes",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/airplanes",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"airplanes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/airplanesKo",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function() {\r",
+									"    pm.expect(pm.response.code).to.equal(200);\r",
+									"})\r",
+									"pm.test(\"Content-Type is JSON\", function () {\r",
+									"    pm.response.to.have.header(\"Content-Type\", \"application/json\");\r",
+									"});\r",
+									"pm.test(\"Response has expected data structure\", function () {\r",
+									"    var jsonData = pm.response.json();\r",
+									"    pm.expect(jsonData).to.be.an(\"array\");\r",
+									"    jsonData.forEach(function(item) {\r",
+									"        pm.expect(item).to.have.property(\"id\");\r",
+									"        pm.expect(item).to.have.property(\"model\");\r",
+									"        pm.expect(item).to.have.property(\"manufacturingDate\");\r",
+									"        pm.expect(item).to.have.property(\"passengerCapacity\");\r",
+									"        pm.expect(item).to.have.property(\"maxSpeed\");\r",
+									"        pm.expect(item).to.have.property(\"active\");\r",
+									"        pm.expect(item).to.have.property(\"airline\");\r",
+									"\r",
+									"    });\r",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/airplanesKo",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"airplanesKo"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/airplane/:airplaneId",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/airplane/:airplaneId",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"airplane",
+								":airplaneId"
+							],
+							"variable": [
+								{
+									"key": "airplaneId",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/airline/:airlineId/airplanes",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/airline/:airlineId/airplanes",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"airline",
+								":airlineId",
+								"airplanes"
+							],
+							"variable": [
+								{
+									"key": "airlineId",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/airplane",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"model\": \"Boeing 737\",\r\n    \"manufacturingDate\": \"2010-01-18\",\r\n    \"passengerCapacity\": 200,\r\n    \"maxSpeed\": 560,\r\n    \"active\": true,\r\n    \"airline\": {\r\n        \"id\": 11\r\n    }\r\n}\r\n\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/airplane",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"airplane"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/airplane/:airplaneId",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/airplane/:airplaneId",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"airplane",
+								":airplaneId"
+							],
+							"variable": [
+								{
+									"key": "airplaneId",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/airplane/:airplaneId",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"model\": \"Boeing 737\",\r\n    \"manufacturingDate\": \"2010-01-18\",\r\n    \"passengerCapacity\": 200,\r\n    \"maxSpeed\": 560,\r\n    \"active\": true,\r\n    \"airline\": {\r\n        \"id\": 11\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/airplane/:airplaneId",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"airplane",
+								":airplaneId"
+							],
+							"variable": [
+								{
+									"key": "airplaneId",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/airplane/:airplaneId",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"field\": \"maxSpeed\",\r\n    \"maxSpeed\": 600\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/airplane/:airplaneId",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"airplane",
+								":airplaneId"
+							],
+							"variable": [
+								{
+									"key": "airplaneId",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "AirlinesMock",
+			"item": [
+				{
+					"name": "/airlines",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/airlines",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"airlines"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/airlinesKo",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/airlinesKo",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"airlinesKo"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/airline/:airlineId",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function() {\r",
+									"    pm.expect(pm.response.code).to.equal(200);\r",
+									"})\r",
+									"pm.test(\"Content-Type is JSON\", function () {\r",
+									"    pm.response.to.have.header(\"Content-Type\", \"application/json\");\r",
+									"});\r",
+									"pm.test(\"Response has expected data structure\", function () {\r",
+									"    var jsonData = pm.response.json();\r",
+									"        pm.expect(jsonData).to.have.property(\"id\");\r",
+									"        pm.expect(jsonData).to.have.property(\"name\");\r",
+									"        pm.expect(jsonData).to.have.property(\"telephone\");\r",
+									"        pm.expect(jsonData).to.have.property(\"foundationYear\");\r",
+									"        pm.expect(jsonData).to.have.property(\"fleet\");\r",
+									"        pm.expect(jsonData).to.have.property(\"onTime\");\r",
+									"        pm.expect(jsonData).to.have.property(\"active\");\r",
+									"\r",
+									"    });\r",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/airline/:airlineId",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"airline",
+								":airlineId"
+							],
+							"variable": [
+								{
+									"key": "airlineId",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/airline",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"SkyExpres\",\r\n    \"telephone\": 636756345,\r\n    \"foundationYear\": \"2010-01-18\",\r\n    \"fleet\": 100,\r\n    \"onTime\": 92.3,\r\n    \"active\": true\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/airline",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"airline"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/airline/:airlineId",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/airline/:airlineId",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"airline",
+								":airlineId"
+							],
+							"variable": [
+								{
+									"key": "airlineId",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/airline/:airlineId",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Sky Express\",\r\n    \"telephone\": \"636756345\",\r\n    \"foundationYear\":\"2010-01-18\",\r\n    \"fleet\": 50,\r\n    \"onTime\": 92.3,\r\n    \"active\": false\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/airline/:airlineId",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"airline",
+								":airlineId"
+							],
+							"variable": [
+								{
+									"key": "airlineId",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/airline/:airlineId",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"field\": \"fleet\",\r\n    \"fleet\": 100\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/airline/:airlineId",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"airline",
+								":airlineId"
+							],
+							"variable": [
+								{
+									"key": "airlineId",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
